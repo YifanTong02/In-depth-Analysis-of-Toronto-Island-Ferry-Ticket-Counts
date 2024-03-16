@@ -1,0 +1,54 @@
+---
+title: "In-depth Analysis of Toronto Island Ferry Ticket Counts"
+author: "Your Name"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+abstract: |
+  This paper presents a comprehensive analysis of the Toronto Island Ferry Ticket Counts, unveiling the intricate patterns of urban commute and leisure activities. We deduced that despite seasonal and daily fluctuations, a consistent demand for ferry services prevails throughout the year, highlighting its importance in urban transport.
+output: pdf_document
+---
+
+# Introduction
+Toronto Island Ferry service acts as a vital connection between the bustling city and the serene islands. This study aims to parse through ticket count data to glean insights into commuter behavior and service utilization.
+
+In the remainder of this paper, we delve into the dataset origin and structure, elucidate our findings with visual aids, and discuss the implications of our investigation.
+
+# Data
+The dataset for the Toronto Island Ferry Ticket Counts was obtained using the `opendatatoronto` package, which accesses the City of Toronto's Open Data portal...
+
+## Data
+The data was sourced from the Toronto Open Data Portal, representing ticket redemption and sales for ferry services to the Toronto Islands...
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(knitr)
+
+# Assuming 'data' is your dataset loaded in R
+g <- ggplot(data, aes(x=Timestamp, y=Sales_Count)) + geom_line()
+print(g)
+
+kable(head(data))
+
+
+### Step 3: References Section
+In the References section, you will need to cite sources using BibTeX. Your `.bib` file might look like this:
+
+
+
+```bibtex
+@Manual{R,
+    title = {R: A Language and Environment for Statistical Computing},
+    author = {{R Core Team}},
+    year = {2023},
+    url = {https://www.R-project.org/},
+}
+
+@Manual{ggplot2,
+    title = {ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics},
+    author = {Hadley Wickham},
+    year = {2016},
+    url = {https://ggplot2.tidyverse.org},
+}
+
+
