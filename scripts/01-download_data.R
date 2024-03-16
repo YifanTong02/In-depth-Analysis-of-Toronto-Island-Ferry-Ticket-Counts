@@ -1,10 +1,9 @@
 #### Preamble ####
-# Purpose: Downloads and saves the data from 
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Downloads and saves the data from https://open.toronto.ca/dataset/toronto-island-ferry-ticket-count/
+# Author: Yifan Tong
+# Date: 16 March, 2024
+# Contact: yifan.tong@utoronto.ca 
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
 
 #### Workspace setup ####
 library(opendatatoronto)
