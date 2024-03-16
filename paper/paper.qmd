@@ -1,6 +1,6 @@
 ---
 title: "In-depth Analysis of Toronto Island Ferry Ticket Counts"
-author: "Your Name"
+author: "Yifan Tong"
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 abstract: |
   This paper presents a comprehensive analysis of the Toronto Island Ferry Ticket Counts, unveiling the intricate patterns of urban commute and leisure activities. We deduced that despite seasonal and daily fluctuations, a consistent demand for ferry services prevails throughout the year, highlighting its importance in urban transport.
