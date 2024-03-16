@@ -12,7 +12,7 @@ The repo is structured as:
 
 -   `data` contains the data sources used in analysis including the raw data.
 -   `models` contains the model that used in this repo
--   `other\sketches` contains the sketch of the repo
+-   `other/sketches` contains the sketch of the repo
 -   `paper` contains the files used to generate the paper, including the reference bibliography file. 
 -   `scripts` contains the R scripts used to simulate, download and clean data.
 
